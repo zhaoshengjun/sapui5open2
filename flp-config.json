@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "ManageProducts",
+        "description": "Manage Products",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#ManageProducts-Display",
+        "navigationComponentName": "au.com.zencode",
+        "intentSemanticObject": "ManageProducts",
+        "intentAction": "Display",
+        "html5ApplicationName": "manageproducts",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "b8e99a88-b075-4655-860f-48d4d66598b4"
+        ],
+        "contentPackages": [
+            "63de41f5-510e-4c8d-9a74-31b6b7941611"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Products",
+        "subtitle": "Manage Products",
+        "searchKeywords": "Products,Manage Products",
+        "displayIconUrl": "sap-icon://add-product",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
