@@ -2,7 +2,7 @@
     "application": {
         "id": "",
         "title": "ManageProducts",
-        "description": "Manage Products",
+        "description": "Products",
         "type": "SAP_UI5_Component",
         "componentUrl": "/",
         "appUrl": "#ManageProducts-Display",
@@ -24,9 +24,9 @@
     "tile": {
         "type": "StaticTile",
         "title": "Products",
-        "subtitle": "Manage Products",
-        "searchKeywords": "Products,Manage Products",
-        "displayIconUrl": "sap-icon://add-product",
+        "subtitle": "Manage products",
+        "searchKeywords": "Products,Manage products",
+        "displayIconUrl": "sap-icon://approvals",
         "displayInfoText": "",
         "size": "1x1",
         "serviceURL": "",

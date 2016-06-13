@@ -1,33 +1,6 @@
 {
   "run": [
     {
-      "filePath": "/ManageProducts/webapp/test/mockServer.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "urlParameters": [
-        {
-          "paramName": "",
-          "paramValue": "",
-          "paramActive": false
-        },
-        {
-          "paramName": "",
-          "paramValue": "",
-          "paramActive": false
-        }
-      ],
-      "hashParameter": "",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 1,
-      "_metadata": {
-        "id": 87567847,
-        "runnerId": "webapprunner",
-        "displayName": "App (Mock Server)"
-      }
-    },
-    {
       "filePath": "/ManageProducts/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
@@ -52,6 +25,33 @@
         "id": 87567846,
         "runnerId": "webapprunner",
         "displayName": "App"
+      }
+    },
+    {
+      "filePath": "/ManageProducts/webapp/test/mockServer.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "_metadata": {
+        "id": 87567847,
+        "runnerId": "webapprunner",
+        "displayName": "App (Mock Server)"
       }
     },
     {
