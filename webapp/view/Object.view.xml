@@ -28,27 +28,7 @@
 					<ObjectAttribute text="{Name}" />
 				</attributes>
 			</ObjectHeader>
-			<Panel 
-				class="sapUiResponsiveMargin" 
-				width="auto"
-				headerText="{i18n>productTitle}"
-				expandable="{device>/system/phone}"
-				expanded="true"
-				>
-				<content>
-					<form:SimpleForm id="objectForm">
-						<form:content>
-							<Label text="{i18n>productCategoryLabel}" />
-							<Text text="{Category}" />
-							<Label text="{i18n>productNameLabel}" />
-							<Text text="{Name}" />
-							<Label text="{i18n>productWeightLabel}" />
-							<Text text="{= ${WeightMeasure} + ' ' + ${WeightUnit}}" />
-						</form:content>
-					</form:SimpleForm>
-				</content>
-			</Panel>
-			
+			<mvc:XMLView viewName="au.com.zencode.view.ProductDetails" />
 			<core:Fragment fragmentName="au.com.zencode.view.SupplierInfo" type="XML" />
  		</semantic:content>
 
